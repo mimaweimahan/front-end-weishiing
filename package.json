@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "sass-loader": "^16.0.2"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "uview-ui": "^1.8.8",
+    "vue-i18n": "^9.14.1"
+  }
+}

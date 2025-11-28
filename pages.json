@@ -1,0 +1,235 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/userPages/start",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/userPages/login",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/userPages/register",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/home/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/home/noticeList",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/home/about",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/home/license",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/home/companyProfile",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/quote/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/transaction/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/news/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/assets/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/mine/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/mine/changePayPwd",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/mine/recharge",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/mine/withdrawal",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/mine/payment",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/mine/authentication",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/mine/set",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/mine/changePwd",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/mine/lang",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/mine/record",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/mine/share",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/mine/help",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/mine/service",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbarPages/news/detail",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/tabbarPages/home/index"
+				// "text": "首页"
+				// "iconPath": "static/icon/11.png",
+				// "selectedIconPath": "static/icon/1.png"
+			},
+			{
+				"pagePath": "pages/tabbarPages/quote/index"
+				// "text": "投放"
+				// "iconPath": "static/icon/22.png",
+				// "selectedIconPath": "static/icon/2.png"
+			},
+			{
+				"pagePath": "pages/tabbarPages/transaction/index"
+				// "text": "订单"
+				// "iconPath": "static/icon/44.png",
+				// "selectedIconPath": "static/icon/4.png"
+			},
+			{
+				"pagePath": "pages/tabbarPages/news/index"
+				// "text": "订单"
+				// "iconPath": "static/icon/44.png",
+				// "selectedIconPath": "static/icon/4.png"
+			},
+			{
+				"pagePath": "pages/tabbarPages/assets/index"
+				// "text": "订单"
+				// "iconPath": "static/icon/44.png",
+				// "selectedIconPath": "static/icon/4.png"
+			},
+			{
+				"pagePath": "pages/tabbarPages/mine/index"
+				// "text": "我的"
+				// "iconPath": "static/icon/55.png",
+				// "selectedIconPath": "static/icon/5.png"
+			}
+		]
+	}
+}
